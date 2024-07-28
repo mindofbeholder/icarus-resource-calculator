@@ -9394,12 +9394,12 @@
       "url": "https://icarus.fandom.com/wiki/Electronics",
       "craft": [
         {
-          "id": "refined-gold",
-          "amount": 1
+          "id": "gold-wire",
+          "amount": 5
         },
         {
-          "id": "copper-ingot",
-          "amount": 3
+          "id": "copper-wire",
+          "amount": 15
         },
         {
           "id": "organic-resin",
@@ -9502,7 +9502,36 @@
           "amount": 1
         }
       ],
-      "bench": "concrete-furnace"
+      "bench": "concrete-furnace",
+      "quantityProduced": 1
+    },
+    {
+      "id": "gold-wire",
+      "name": "Gold Wire",
+      "imageUrl": "/images/ITEM_Gold_Wire.png",
+      "url": "https://icarus.fandom.com/wiki/Gold_Wire",
+      "craft": [
+        {
+          "id": "refined-gold",
+          "amount": 1
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 5
+    },
+    {
+      "id": "copper-wire",
+      "name": "Copper Wire",
+      "imageUrl": "/images/ITEM_Copper_Wire.png",
+      "url": "https://icarus.fandom.com/wiki/Copper_Wire",
+      "craft": [
+        {
+          "id": "copper-ingot",
+          "amount": 1
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 5
     }
   ]
 }
