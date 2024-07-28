@@ -5209,7 +5209,7 @@
         },
         {
           "id": "copper-ingot",
-          "amount": 24
+          "amount": 10
         },
         {
           "id": "electronics",
@@ -5218,6 +5218,10 @@
         {
           "id": "epoxy",
           "amount": 12
+        },
+        {
+          "id": "copper-wire",
+          "amount": 50
         }
       ],
       "bench": "machining-bench"
