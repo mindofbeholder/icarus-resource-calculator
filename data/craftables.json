@@ -6698,12 +6698,12 @@
       "url": "https://icarus.fandom.com/wiki/Bolt_Action_Rifle",
       "craft": [
         {
-          "id": "wood",
+          "id": "refined-wood",
           "amount": 12
         },
         {
-          "id": "leather",
-          "amount": 8
+          "id": "cured-leather",
+          "amount": 1
         },
         {
           "id": "steel-ingot",
@@ -7295,12 +7295,12 @@
       "url": "https://icarus.fandom.com/wiki/Hunting_Rifle",
       "craft": [
         {
-          "id": "wood",
+          "id": "refined-wood",
           "amount": 12
         },
         {
-          "id": "leather",
-          "amount": 8
+          "id": "cured-leather",
+          "amount": 1
         },
         {
           "id": "titanium-ingot",
@@ -7520,12 +7520,12 @@
       "url": "https://icarus.fandom.com/wiki/Pistol",
       "craft": [
         {
-          "id": "wood",
+          "id": "refined-wood",
           "amount": 6
         },
         {
-          "id": "leather",
-          "amount": 8
+          "id": "cured-leather",
+          "amount": 1
         },
         {
           "id": "steel-ingot",
@@ -7729,8 +7729,8 @@
           "amount": 12
         },
         {
-          "id": "leather",
-          "amount": 8
+          "id": "cured-leather",
+          "amount": 1
         },
         {
           "id": "steel-ingot",
@@ -7746,6 +7746,35 @@
         }
       ],
       "bench": "machining-bench"
+    },
+    {
+      "id": "trench-shotgun",
+      "name": "Trench Shotgun",
+      "imageUrl": "/images/ITEM_Trench_Shotgun.png",
+      "url": "https://icarus.fandom.com/wiki/Trench_Shotgun",
+      "craft": [
+        {
+          "id": "refined-wood",
+          "amount": 20
+        },
+        {
+          "id": "cured-leather",
+          "amount": 1
+        },
+        {
+          "id": "titanium-ingot",
+          "amount": 20
+        },
+        {
+          "id": "epoxy",
+          "amount": 5
+        },
+        {
+          "id": "steel-screw",
+          "amount": 25
+        }
+      ],
+      "bench": "fabricator"
     },
     {
       "id": "shovel",
@@ -8986,12 +9015,16 @@
   "processedRessources": [
     {
       "id": "buckshot-shell",
-      "name": "Buckshot Shell",
+      "name": "00 Buckshot Shell",
       "imageUrl": "/images/ITEM_00_Buckshot_Shell.png",
       "craft": [
         {
-          "id": "copper-ingot",
+          "id": "ammo-casing",
           "amount": 1
+        },
+        {
+          "id": "copper-nail",
+          "amount": 2
         },
         {
           "id": "epoxy",
@@ -8999,10 +9032,34 @@
         },
         {
           "id": "gunpowder",
-          "amount": 6
+          "amount": 1
         }
       ],
       "bench": "machining-bench"
+    },{
+      "id": "buckshot-shell-slash",
+      "name": "00 Buckshot Shell (Shotgun Slash)",
+      "imageUrl": "/images/ITEM_00_Buckshot_Shell.png",
+      "craft": [
+        {
+          "id": "ammo-casing",
+          "amount": 4
+        },
+        {
+          "id": "copper-nail",
+          "amount": 8
+        },
+        {
+          "id": "epoxy",
+          "amount": 4
+        },
+        {
+          "id": "gunpowder",
+          "amount": 4
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 5
     },
     {
       "id": "pistol-round",
@@ -9010,7 +9067,7 @@
       "imageUrl": "/images/ITEM_Pistol_Round.png",
       "craft": [
         {
-          "id": "iron-ingot",
+          "id": "ammo-casing",
           "amount": 1
         },
         {
@@ -9019,6 +9076,56 @@
         }
       ],
       "bench": "machining-bench"
+    },
+    {
+      "id": "pistol-round-proficiency",
+      "name": "Pistol Round (Pistol Proficiency)",
+      "imageUrl": "/images/ITEM_Pistol_Round.png",
+      "craft": [
+        {
+          "id": "ammo-casing",
+          "amount": 4
+        },
+        {
+          "id": "gunpowder",
+          "amount": 4
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 5
+    },
+    {
+      "id": "incendiary-pistol-round",
+      "name": "Incendiary Pistol Round",
+      "imageUrl": "/images/ITEM_Incendiary_Pistol_Round.png",
+      "craft": [
+        {
+          "id": "pistol-round",
+          "amount": 1
+        },
+        {
+          "id": "gunpowder",
+          "amount": 5
+        }
+      ],
+      "bench": "machining-bench"
+    },
+    {
+      "id": "incendiary-pistol-round-proficiency",
+      "name": "Incendiary Pistol Round (Pistol Proficiency)",
+      "imageUrl": "/images/ITEM_Incendiary_Pistol_Round.png",
+      "craft": [
+        {
+          "id": "pistol-round-proficiency",
+          "amount": 1
+        },
+        {
+          "id": "gunpowder",
+          "amount": 5
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 5
     },
     {
       "id": "rifle-round",
@@ -9026,7 +9133,7 @@
       "imageUrl": "/images/ITEM_Rifle_Round.png",
       "craft": [
         {
-          "id": "iron-ingot",
+          "id": "ammo-casing",
           "amount": 1
         },
         {
@@ -9037,17 +9144,50 @@
       "bench": "machining-bench"
     },
     {
+      "id": "rifle-round-reduction",
+      "name": "Rifle Round (Rifle Reduction)",
+      "imageUrl": "/images/ITEM_Rifle_Round.png",
+      "craft": [
+        {
+          "id": "ammo-casing",
+          "amount": 4
+        },
+        {
+          "id": "gunpowder",
+          "amount": 8
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 5
+    },
+    {
       "id": "incendiary-rifle-round",
       "name": "Incendiary Rifle Round",
       "imageUrl": "/images/ITEM_Incendiary_Rifle_Round.png",
       "craft": [
         {
-          "id": "iron-ingot",
+          "id": "rifle-round",
           "amount": 1
         },
         {
           "id": "gunpowder",
-          "amount": 10
+          "amount": 5
+        }
+      ],
+      "bench": "machining-bench"
+    },
+    {
+      "id": "incendiary-rifle-round-reduction",
+      "name": "Incendiary Rifle Round (Rifle Reduction)",
+      "imageUrl": "/images/ITEM_Incendiary_Rifle_Round.png",
+      "craft": [
+        {
+          "id": "rifle-round-reduction",
+          "amount": 1
+        },
+        {
+          "id": "gunpowder",
+          "amount": 5
         }
       ],
       "bench": "machining-bench"
@@ -9090,7 +9230,7 @@
         }
       ],
       "bench": "carpentry-bench",
-      "quantityProduced": 10
+      "quantityProduced": 5
     },
     {
       "id": "glass-jar",
@@ -9457,8 +9597,8 @@
           "amount": 30
         },
         {
-          "id": "platinum-ingot",
-          "amount": 1
+          "id": "platinum-sheath",
+          "amount": 2
         }
       ],
       "bench": "advanced-textiles-bench"
@@ -9532,6 +9672,56 @@
       ],
       "bench": "machining-bench",
       "quantityProduced": 5
+    },
+    {
+      "id": "platinum-sheath",
+      "name": "Platinum Sheath",
+      "imageUrl": "/images/ITEM_Platinum_Sheath.png",
+      "url": "https://icarus.fandom.com/wiki/Platinum_Sheath",
+      "craft": [
+        {
+          "id": "platinum-ingot",
+          "amount": 1
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 4
+    },
+    {
+      "id": "ammo-casing",
+      "name": "Ammo Casing",
+      "imageUrl": "/images/ITEM_Ammo_Casing.png",
+      "url": "https://icarus.fandom.com/wiki/Ammo_Casing",
+      "craft": [
+        {
+          "id": "iron-ingot",
+          "amount": 1
+        }
+      ],
+      "bench": "machining-bench",
+      "quantityProduced": 5
+    },
+    {
+      "id": "volatile-substance",
+      "name": "Volatile Substance",
+      "imageUrl": "/images/ITEM_Volatile_Substance.png",
+      "url": "https://icarus.fandom.com/wiki/Volatile_Substance",
+      "craft": [
+        {
+          "id": "gunpowder",
+          "amount": 2
+        },
+        {
+          "id": "oxite",
+          "amount": 2
+        },
+        {
+          "id": "spoiled-plants",
+          "amount": 2
+        }
+      ],
+      "bench": "mortar-and-pestle",
+      "quantityProduced": 1
     }
   ]
 }
