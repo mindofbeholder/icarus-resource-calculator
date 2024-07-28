@@ -35,14 +35,14 @@ export const AppBar = ({ onLogoClick }: AppBarProps) => {
       <Links>
         <Link
           target="_blank"
-          href="https://github.com/lucasriondel/icarus-resource-calculator"
+          href="https://github.com/mindofbeholder/icarus-resource-calculator"
         >
           Github
         </Link>
 
         <Link
           target="_blank"
-          href="https://github.com/lucasriondel/icarus-resource-calculator/issues/new/choose"
+          href="https://github.com/mindofbeholder/icarus-resource-calculator/issues/new/choose"
         >
           Bug Report
         </Link>
