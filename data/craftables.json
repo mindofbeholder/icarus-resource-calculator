@@ -9834,6 +9834,58 @@
       ],
       "bench": "fabricator",
       "quantityProduced": 1
+    },
+    {
+      "id": "electric-water-pump",
+      "name": "Electric Water Pump",
+      "imageUrl": "/images/ITEM_Electric_Water_Pump.png",
+      "url": "https://icarus.fandom.com/wiki/Electric_Water_Pump",
+      "craft": [
+        {
+          "id": "steel-ingot",
+          "amount": 24
+        },
+        {
+          "id": "electronics",
+          "amount": 4
+        },
+        {
+          "id": "concrete-mix",
+          "amount": 20
+        },
+        {
+          "id": "steel-screw",
+          "amount": 16
+        }
+      ],
+      "bench": "fabricator",
+      "quantityProduced": 1
+    },
+    {
+      "id": "electrolytic-oxygen-synthesizer",
+      "name": "Electrolytic Oxygen Synthesizer",
+      "imageUrl": "/images/ITEM_Electrolytic_Oxygen_Synthesizer.png",
+      "url": "https://icarus.fandom.com/wiki/Electrolytic_Oxygen_Synthesizer",
+      "craft": [
+        {
+          "id": "titanium-plate",
+          "amount": 2
+        },
+        {
+          "id": "glass",
+          "amount": 10
+        },
+        {
+          "id": "electronics",
+          "amount": 20
+        },
+        {
+          "id": "copper-wire",
+          "amount": 70
+        }
+      ],
+      "bench": "fabricator",
+      "quantityProduced": 1
     }
   ]
 }
