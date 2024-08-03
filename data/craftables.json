@@ -5589,12 +5589,12 @@
       "url": "https://icarus.fandom.com/wiki/Electricity_Tool",
       "craft": [
         {
-          "id": "copper-ingot",
-          "amount": 20
+          "id": "copper-wire",
+          "amount": 50
         },
         {
-          "id": "refined-gold",
-          "amount": 8
+          "id": "gold-wire",
+          "amount": 50
         },
         {
           "id": "carbon-fiber",
@@ -6153,14 +6153,6 @@
       "url": "https://icarus.fandom.com/wiki/Solar_Panel",
       "craft": [
         {
-          "id": "composites",
-          "amount": 18
-        },
-        {
-          "id": "carbon-fiber",
-          "amount": 8
-        },
-        {
           "id": "electronics",
           "amount": 30
         },
@@ -6171,6 +6163,14 @@
         {
           "id": "glass",
           "amount": 60
+        },
+        {
+          "id": "composites",
+          "amount": 18
+        },
+        {
+          "id": "carbon-fiber",
+          "amount": 8
         }
       ],
       "bench": "fabricator"
@@ -9725,6 +9725,100 @@
         }
       ],
       "bench": "mortar-and-pestle",
+      "quantityProduced": 1
+    },
+    {
+      "id": "wind-turbine",
+      "name": "Wind Turbine",
+      "imageUrl": "/images/ITEM_Wind_Turbine.png",
+      "url": "https://icarus.fandom.com/wiki/Wind_Turbine",
+      "craft": [
+        {
+          "id": "electronics",
+          "amount": 8
+        },
+        {
+          "id": "steel-screw",
+          "amount": 20
+        },
+        {
+          "id": "aluminium-ingot",
+          "amount": 25
+        },
+        {
+          "id": "copper-wire",
+          "amount": 35
+        },
+        {
+          "id": "gold-wire",
+          "amount": 25
+        },
+        {
+          "id": "carbon-fiber",
+          "amount": 5
+        }
+      ],
+      "bench": "fabricator",
+      "quantityProduced": 1
+    },
+    {
+      "id": "basic-battery-rack",
+      "name": "Basic Battery Rack",
+      "imageUrl": "/images/ITEM_Basic_Battery_Rack.png",
+      "url": "https://icarus.fandom.com/wiki/Basic_Battery_Rack",
+      "craft": [
+        {
+          "id": "electronics",
+          "amount": 4
+        },
+        {
+          "id": "copper-wire",
+          "amount": 16
+        },
+        {
+          "id": "refined-wood",
+          "amount": 10
+        },
+        {
+          "id": "platinum-sheath",
+          "amount": 6
+        },
+        {
+          "id": "titanium-plate",
+          "amount": 2
+        }
+      ],
+      "bench": "fabricator",
+      "quantityProduced": 1
+    },
+    {
+      "id": "flow-meter",
+      "name": "Flow Meter",
+      "imageUrl": "/images/ITEM_Flow_Meter.png",
+      "url": "https://icarus.fandom.com/wiki/Flow_Meter",
+      "craft": [
+        {
+          "id": "electronics",
+          "amount": 2
+        },
+        {
+          "id": "copper-wire",
+          "amount": 10
+        },
+        {
+          "id": "aluminium-ingot",
+          "amount": 6
+        },
+        {
+          "id": "gold-wire",
+          "amount": 10
+        },
+        {
+          "id": "glass",
+          "amount": 2
+        }
+      ],
+      "bench": "fabricator",
       "quantityProduced": 1
     }
   ]
