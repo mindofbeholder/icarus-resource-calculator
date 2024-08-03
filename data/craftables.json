@@ -9762,6 +9762,20 @@
       "quantityProduced": 1
     },
     {
+      "id": "titanium-plate",
+      "name": "Titanium Plate",
+      "imageUrl": "/images/ITEM_Titanium_Plate.png",
+      "url": "https://icarus.fandom.com/wiki/Titanium_Plate",
+      "craft": [
+        {
+          "id": "titanium-ingot",
+          "amount": 3
+        }
+      ],
+      "bench": "fabricator",
+      "quantityProduced": 1
+    },
+    {
       "id": "basic-battery-rack",
       "name": "Basic Battery Rack",
       "imageUrl": "/images/ITEM_Basic_Battery_Rack.png",
